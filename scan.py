@@ -5,7 +5,7 @@ from logging import info, basicConfig, INFO
 
 basicConfig(
     level=INFO,
-    filename='Caminho que vc deseja salva o arquivo de texto',
+    filename='Caminho que vc deseja salvar o arquivo de texto',
     filemode='a',
     encoding='UTF-8',
     format="Data do Scan:%(asctime)s|%(levelname)s:%(message)s"
